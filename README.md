@@ -6,6 +6,13 @@ See [#1](https://github.com/semantic-release/github-npm-registry/pull/1) for the
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish an [npm](https://www.npmjs.com) package to [GitHub’s npm registry](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry).
 
+[![Travis](https://img.shields.io/travis/semantic-release/github-npm-registry.svg)](https://travis-ci.org/semantic-release/github-npm-registry)
+[![Codecov](https://img.shields.io/codecov/c/github/semantic-release/github-npm-registry.svg)](https://codecov.io/gh/semantic-release/github-npm-registry)
+[![Greenkeeper badge](https://badges.greenkeeper.io/semantic-release/github-npm-registry.svg)](https://greenkeeper.io/)
+
+[![npm latest version](https://img.shields.io/npm/v/@semantic-release/github-npm-registry/latest.svg)](https://www.npmjs.com/package/@semantic-release/github-npm-registry)
+[![npm next version](https://img.shields.io/npm/v/@semantic-release/github-npm-registry/next.svg)](https://www.npmjs.com/package/@semantic-release/github-npm-registry)
+
 | Step               | Description                                                                                                                                                                         |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `verifyConditions` | Verify the presence of the `GITHUB_TOKEN` environment variable, create or update the `.npmrc` file with GitHub’s npm registry URL, the token and verify the token is valid.         |
